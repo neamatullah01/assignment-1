@@ -145,8 +145,10 @@
     font-family: Lato;
     font-size: 32px;
     font-weight: 800;
+    padding-bottom: 0px;
 }
-.sec2-title-mark{
+
+.sec2-title-mark {
     color: #d62c2c;
     font-family: Lato;
     font-size: 38px;
@@ -155,21 +157,94 @@
 
 /* section-3 styles */
 
-.sec3-images{
+.sec3-images {
     display: flex;
     padding-top: 5px;
     padding-bottom: 100px;
     align-items: center;
     justify-content: center;
-    gap: 13px;
+    gap: 15px;
 }
-.sec3-img{
+
+.sec3-img {
     width: 225px;
     height: 280px;
 }
-.sec3-img-banner{
+
+.sec3-img-banner {
     width: 225px;
     height: 280px;
     box-shadow: 3px 3px 5px rgb(177, 173, 173);
     border: 0px;
+}
+
+/* section-4 styles */
+
+.sec4-container {
+    border-radius: 10px;
+    background-image: url("./asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    padding: 6%;
+    margin-bottom: 80px;
+}
+
+.sec4-content {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.sec4-input {
+    border-radius: 4px;
+    background: #FFF;
+    width: 450px;
+    height: 43px;
+    border: none;
+    padding: 0px 8px;
+    box-shadow: 2px 2px 3px grey;
+}
+
+/* section-5 styles */
+
+.sec5-container {
+    margin-bottom: 10px;
+    background-image: url("./asset/cover\ 5.jpg"), linear-gradient(rgba(224, 71, 71, 0.9), rgba(61, 13, 13, 0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    padding-top: 5%;
+    padding-left: 50px;
+}
+
+.sec5-title {
+    color: black;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: bold;
+    width: 180px;
+    border-bottom: 3px solid black;
+}
+.sec5-content{
+    padding-top: 15px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.sec5-descripton{
+    color: rgba(63, 18, 18, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
 }
