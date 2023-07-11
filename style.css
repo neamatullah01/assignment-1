@@ -241,7 +241,7 @@
 }
 
 .sec5-descripton {
-    color: rgba(63, 18, 18, 0.6);
+    color: rgba(63, 18, 18, 0.9);
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
@@ -254,7 +254,7 @@
 
 .footer-container {
     padding: 100px 400px;
-    background-color: rgb(24, 24, 24, 0.90);
+    background-color: rgb(24, 24, 24, 0.95);
     display: block;
     text-align: center;
     color: white;
