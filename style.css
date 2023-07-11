@@ -133,7 +133,6 @@
     align-items: center;
     gap: 120px;
     background-color: rgba(229, 84, 115, 0.1);
-    margin-bottom: 30px;
 }
 
 .sec2-content {
@@ -152,4 +151,25 @@
     font-family: Lato;
     font-size: 38px;
     font-weight: bold;
+}
+
+/* section-3 styles */
+
+.sec3-images{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.sec3-img{
+    width: 225px;
+    height: 280px;
+}
+.sec3-img-banner{
+    width: 225px;
+    height: 280px;
+    box-shadow: 3px 3px 5px rgb(177, 173, 173);
+    border: 0px;
 }
